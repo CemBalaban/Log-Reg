@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Login Sayfasi</title>
+</head>
+<body>
+    <header class="container__header">
+        <img src="logo.png" alt="Logo" class="container__logo">
+    </header>
+    
+    <main class="container">
+        <section class="container__form">
+            <p class="container__title">Giris Yap</p>
+            <p class="container__desc">Travelwise hesabiniza erismek icin oturum acin!</p>
+            <section class="container__input-container">
+                <label for="container__input" class="text">Email</label>
+                <input class="container__input" type="text" name="container__input">
+            </section>
+            <section class="container__input-container">
+                <label for="container__input" class="text">Sifre</label>
+                <input class="container__input" type="password" name="container__input">
+            </section>
+            <section class="container__controls">
+                <input type="checkbox" class="container__checkbox">
+                <label class="container__remember">Beni hatirla!</label>
+                <p class="container__fpass"><a href="forgotpass.html" target="_blank">Şifremi Unuttum</a></p>
+            </section>
+            <button class="container__confirm">Giris Yap</button>
+            <p class="container__reg">Hesabiniz yok mu?<a href="register.html" target="_blank"> Hesap olusturun!</a></p>
+
+            <label class="container__orlog">Veya sununla giris yap</label>
+
+            <section class="container__direction">
+                <button class="container__drct container__drct-facebook"></button>
+                <button class="container__drct container__drct-google"></button>
+                <button class="container__drct container__drct-apple"></button>
+            </section>
+        </section>
+        <aside class="container__image">
+            <img src="loginimg.png" class="container__img">
+        </aside>
+    </main>
+</body>
+</html>
