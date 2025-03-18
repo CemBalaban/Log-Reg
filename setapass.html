@@ -1,41 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <title>Set A Password</title>
-    <link rel="stylesheet" href="main.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet" />
+  <title>Set A Password</title>
+  <link rel="stylesheet" href="main.css" />
 </head>
+
 <body>
+  <main class="container">
     <header class="container__header">
-        <img src="logo.png" alt="Logo" class="container__logo">
+      <img src="logo.png" alt="Logo" class="container__logo" />
     </header>
-    
-    <main class="container">
-        <div class="container__center">
+    <div class="container__center">
+      <div class="container__left">
+
+
         <section class="container__form container__form__setpass">
-            <p class="container__title">Sifreni Belirle</p>
-            <p class="container__desc">Onceki sifren yenilendi. Yeni sifrenizi asagiya giriniz.</p>
+          <p class="container__title">Sifreni Belirle</p>
+          <p class="container__desc">
+            Onceki sifren yenilendi. Yeni sifrenizi asagiya giriniz.
+          </p>
 
-            <div class="container__input-container">
-                <label for="container__input" class="text">Sifreniz</label>
-                <input class="container__input" type="password" name="container__input">
-            </div>
+          <div class="container__input-container">
+            <label for="container__input" class="text">Sifreniz</label>
+            <input class="container__input" type="password" name="container__input" />
+          </div>
 
-            <div class="container__input-container">
-                <label for="container__input" class="text">Sifrenizi onaylayiniz</label>
-                <input class="container__input" type="password" name="container__input">
-            </div>
+          <div class="container__input-container">
+            <label for="container__input" class="text">Sifrenizi onaylayiniz</label>
+            <input class="container__input" type="password" name="container__input" />
+          </div>
 
-            <button class="container__confirm">Sifreyi kaydet</button>
+          <button class="container__confirm">Sifreyi kaydet</button>
         </section>
-        <aside class="container__image">
-            <img src="setapassimg.png" class="container__img">
+      </div>
+      <div class="container__right">
+        <aside class="container__image container__image-setpass">
+          <img src="setapassimg.png" class="container__img" />
         </aside>
+      </div>
     </div>
-    </main>
+  </main>
 </body>
+
 </html>

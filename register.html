@@ -1,81 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <title>Register</title>
-    <link rel="stylesheet" href="main.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet" />
+  <title>Register</title>
+  <link rel="stylesheet" href="main.css" />
 </head>
+
 <body>
-    <header class="container__header-reg">
-        <img src="logo.png" alt="Logo" class="container__logo">
-    </header>
-
-    <main class="container">
-        <div class="container__center">
+  <main class="container">
+    <div class="container__center">
+      <header class="container__header-reg">
+        <img src="logo.png" alt="Logo" class="container__logo" />
+      </header>
+      <div class="container__right container__image-register">
         <aside class="container__image">
-            <img class="container__img container__img-reg" src="singupimg.png">
+          <img class="container__img container__img-reg" src="singupimg.png" />
         </aside>
+      </div>
+      <div class="container__left">
         <section class="container__form container__form__register">
+          <p class="container__title">Kayit Ol</p>
+          <p class="container__desc">Kendi kisisel hesabinizi olusturun!</p>
 
-            <p class="container__title"> Kayit Ol</p>
-            <p class="container__desc"> Kendi kisisel hesabinizi olusturun!</p>
-
-            <div class="container__input-container__textinput">
-                <div class="container__input-container container__inputcontainer-small">
-                    <label for="container__input" class="text">Adiniz</label>
-                    <input class="container__input" type="text" name="container__input">
-                </div>   
-
-                <div class="container__input-container container__inputcontainer-small">
-                    <label for="container__input" class="text">Soyadiniz</label>
-                    <input class="container__input" type="text" name="container__input">
-                </div>
-            </div>   
-
-            <div class="container__input-container__textinput"> 
-                <div class="container__input-container container__inputcontainer-small"> 
-                    <label for="container__input" class="text">Email</label>
-                    <input class="container__input" type="text" name="container__input">
-                </div>
-
-                <div class="container__input-container container__inputcontainer-small">
-                    <label for="container__input" class="text">Telefon Numaraniz</label>
-                    <input class="container__input" type="text" name="container__input">
-                </div>
+          <div class="container__input-container__textinput">
+            <div class="container__input-container container__inputcontainer-small">
+              <label for="container__input" class="text">Adiniz</label>
+              <input class="container__input" type="text" name="container__input" />
             </div>
 
-            <div class="container__input-container container__input-container-reg">
-                <label for="container__input" class="text">Sifre</label>
-                <input class="container__input container__inputcontainer-reg" type="password" name="container__input">
+            <div class="container__input-container container__inputcontainer-small">
+              <label for="container__input" class="text">Soyadiniz</label>
+              <input class="container__input" type="text" name="container__input" />
+            </div>
+          </div>
+
+          <div class="container__input-container__textinput">
+            <div class="container__input-container container__inputcontainer-small">
+              <label for="container__input" class="text">Email</label>
+              <input class="container__input" type="text" name="container__input" />
             </div>
 
-            <div class="container__input-container container__input-container-reg">
-                <label for="container__input" class="text">Sifre onayi</label>
-                <input class="container__input container__inputcontainer-reg" type="password" name="container__input">
+            <div class="container__input-container container__inputcontainer-small">
+              <label for="container__input" class="text">Telefon Numaraniz</label>
+              <input class="container__input" type="text" name="container__input" />
             </div>
+          </div>
 
-            <div class="container__agree">
-                <input type="checkbox" class="container__checkbox">
-                <a href="#">Kosullari</a><p>ve </p><a href="#">Gizlilik Sozlesmesini</a><p> okudum ve onayliyorum</p>
-            </div>
+          <div class="container__input-container container__input-container-reg">
+            <label for="container__input" class="text">Sifre</label>
+            <input class="container__input container__inputcontainer-reg" type="password" name="container__input" />
+          </div>
 
-            <button class="container__confirm container__confirm-reg"> Kayit ol!</button>
-            <p class="container__reg container__reg-reg">Zaten hesabin var mi?<a href="login.html"> Giris Yap!</a></p>
+          <div class="container__input-container container__input-container-reg">
+            <label for="container__input" class="text">Sifre onayi</label>
+            <input class="container__input container__inputcontainer-reg" type="password" name="container__input" />
+          </div>
 
+          <div class="container__agree">
+            <input type="checkbox" class="container__checkbox" />
+            <a href="#">Kosullari</a>
+            <p>ve</p>
+            <a href="#">Gizlilik Sozlesmesini</a>
+            <p>okudum ve onayliyorum</p>
+          </div>
 
-            <label class="container__orlog container__orlog-reg">Veya sununla giris yap</label>
+          <button class="container__confirm container__confirm-reg">
+            Kayit ol!
+          </button>
+          <p class="container__reg container__reg-reg">
+            Zaten hesabin var mi?<a href="login.html"> Giris Yap!</a>
+          </p>
 
-            <div class="container__direction">
-                <button class="container__drct container__drct-reg container__drct-facebook"></button>
-                <button class="container__drct container__drct-reg container__drct-google"></button>
-                <button class="container__drct container__drct-reg container__drct-apple"></button>
-            </div>
+          <label class="container__orlog container__orlog-reg">Veya sununla giris yap</label>
+
+          <div class="container__direction">
+            <button class="container__drct container__drct-reg container__drct-facebook"></button>
+            <button class="container__drct container__drct-reg container__drct-google"></button>
+            <button class="container__drct container__drct-reg container__drct-apple"></button>
+          </div>
         </section>
+      </div>
     </div>
-    </main>
+  </main>
 </body>
+
 </html>

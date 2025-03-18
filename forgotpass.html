@@ -1,46 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <title>Forgot Password</title>
-    <link rel="stylesheet" href="main.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet" />
+  <title>Forgot Password</title>
+  <link rel="stylesheet" href="main.css" />
 </head>
+
 <body>
-    <header class="container__header">
-        <img src="logo.png" alt="Logo" class="container__logo">
-    </header>
-    
-    <main class="container">
-        <div class="container__center">
-        <section class="container__form container__form__forgot">
-            <a href="login.html" class="container__back"><p>Giris'e don</p></a>
-            <p class="container__title">Sifreni mi unuttun?</p>
-            <p class="container__desc">Sifreni unuttuysan endiselenme! Asagidaki kutucuga emailini gir ve sifreni kurtar!</p>
-            
-            <section class="container__input-container">
-                <label for="container__input" class="text">Email</label>
-                <input class="container__input" type="text" name="container__input">
-            </section>
+  <main class="container">
+    <div class="container__center">
+      <header class="container__header">
+        <img src="logo.png" alt="Logo" class="container__logo" />
+      </header>
+      <div class="container__left">
+      <section class="container__form container__form__forgot">
+        <a href="login.html" class="container__back">
+          <p>Giris'e don</p>
+        </a>
+        <p class="container__title">Sifreni mi unuttun?</p>
+        <p class="container__desc">
+          Sifreni unuttuysan endiselenme! Asagidaki kutucuga emailini gir ve
+          sifreni kurtar!
+        </p>
 
-            <button class="container__confirm">Giris Yap</button>
-
-            <label class="container__orlog container__orlog-fpass">Veya sununla giris yap</label>
-
-            <section class="container__direction">
-                <button class="container__drct container__drct-facebook"></button>
-                <button class="container__drct container__drct-google"></button>
-                <button class="container__drct container__drct-apple"></button>
-            </section>
+        <section class="container__input-container">
+          <label for="container__input" class="text">Email</label>
+          <input class="container__input" type="text" name="container__input" />
         </section>
-        <aside class="container__image">
-            <img src="forgotpassimg.png" class="container__img">
-        </aside>
-    </div>
-    </main>
-</body>
-</html>
 
+        <button class="container__confirm">Giris Yap</button>
+
+        <label class="container__orlog container__orlog-fpass">Veya sununla giris yap</label>
+
+        <section class="container__direction">
+          <button class="container__drct container__drct-facebook"></button>
+          <button class="container__drct container__drct-google"></button>
+          <button class="container__drct container__drct-apple"></button>
+        </section>
+      </div>
+      </section>
+      <div class="container__right">
+        <aside class="container__image container__image-forgot">
+          <img src="forgotpassimg.png" class="container__img" />
+        </aside>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
